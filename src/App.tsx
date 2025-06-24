@@ -12,7 +12,7 @@ import "./App.css";
 import { Cake } from "./components/Cake";
 import { CakeActions } from "./components/CakeActions";
 import { Name } from "./components/Name";
-import { Footer } from "./components/Footer/Footer";
+
 
 // const version = import.meta.env.PACKAGE_VERSION;
 
@@ -360,7 +360,6 @@ function App() {
           />
         </div>
       </div>
-      <Footer />
     </>
   );
 }
